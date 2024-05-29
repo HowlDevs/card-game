@@ -1,0 +1,22 @@
+.card {
+  width: 100px;
+  height: 150px;
+  border: 1px solid black;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  cursor: grab;
+}
+
+.card img {
+  width: 80%;
+  height: auto;
+}
+
+.card p {
+  margin-top: 10px;
+  font-size: 0.8rem;
+}
